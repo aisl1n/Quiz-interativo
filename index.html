@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Recriar Quiz Interativo</title>
+  </head>
+  <body>
+    <div class="intro py-3 bg-success text-center">
+      <div class="container">
+        <h2 class="text-light display-3 my-4">80's Quiz</h2>
+      </div>
+    </div>
+
+    <div class="quiz py-4 bg-dark">
+      <div class="container">
+        <h2 class="my-5 text-white" id="result-score">
+          Você é um conhecedor da era de ouro da música? Então teste seu
+          conhecimento dos 80's com as pergutas abaixo!
+        </h2>
+        <form class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              1. A música chamada "Billie Jean" é obra do(a) artista:
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="A" checked />
+                Billy Idol
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="B" />
+                Michael Jackson
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="C" />
+                U2
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="D" />
+                A-ha
+              </label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              2. A música chamada "Take On Me" é obra do(a) artista:
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="A" checked />
+                Guns N' Roses
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="B" />
+                Roxette
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="C" />
+                A-ha
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="D" />
+                Tears for Fears
+              </label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              3. A música chamada "Your Love" é obra do(a) artista:
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="A" checked />
+                Van Halen
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="B" />
+                Earth, Wind & Fire
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="C" />
+                The Outfield
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="D" />
+                Scorpions
+              </label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              4. A música chamada "Down Under" é obra do(a) artista:
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="A" checked />
+                Pet Shop Boys
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="B" />
+                Queen
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="C" />
+                Berlin
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="D" />
+                Men at Work
+              </label>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <button class="btn bg-success text-light">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
